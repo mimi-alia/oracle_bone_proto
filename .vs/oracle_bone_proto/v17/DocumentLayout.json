@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jasper\\Documents\\GitHub\\oracle_bone_proto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8B519F-F530-B0F3-420C-6241B074F362}|Assembly-CSharp.csproj|c:\\users\\jasper\\documents\\github\\oracle_bone_proto\\assets\\helditemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8B519F-F530-B0F3-420C-6241B074F362}|Assembly-CSharp.csproj|solutionrelative:assets\\helditemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8B519F-F530-B0F3-420C-6241B074F362}|Assembly-CSharp.csproj|C:\\Users\\Jasper\\Documents\\GitHub\\oracle_bone_proto\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8B519F-F530-B0F3-420C-6241B074F362}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeldItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Jasper\\Documents\\GitHub\\oracle_bone_proto\\Assets\\HeldItemController.cs",
+              "RelativeDocumentMoniker": "Assets\\HeldItemController.cs",
+              "ToolTip": "C:\\Users\\Jasper\\Documents\\GitHub\\oracle_bone_proto\\Assets\\HeldItemController.cs",
+              "RelativeToolTip": "Assets\\HeldItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:19:24.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Jasper\\Documents\\GitHub\\oracle_bone_proto\\Assets\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Jasper\\Documents\\GitHub\\oracle_bone_proto\\Assets\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\PlayerController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T19:44:28.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
