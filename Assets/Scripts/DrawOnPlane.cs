@@ -3,13 +3,18 @@ using UnityEngine;
 
 public class DrawOnPlane : MonoBehaviour
 {
-    public LineRenderer linePrefab; // Assign a LineRenderer prefab in Inspector
+    public LineRenderer linePrefab;
     private LineRenderer currentLine;
     private List<Vector3> points = new List<Vector3>();
-    public LayerMask planeLayer; // Assign the layer of your plane
+    public LayerMask planeLayer;
+
+    // 🆕 Keep track of all drawn lines
+    private List<GameObject> drawnLines = new List<GameObject>();
 
     void Update()
     {
+        if (!Cursor.visible) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             StartNewLine();
@@ -24,6 +29,7 @@ public class DrawOnPlane : MonoBehaviour
     void StartNewLine()
     {
         currentLine = Instantiate(linePrefab);
+        drawnLines.Add(currentLine.gameObject); // 🆕 Track this line
         points.Clear();
     }
 
@@ -40,5 +46,19 @@ public class DrawOnPlane : MonoBehaviour
                 currentLine.SetPositions(points.ToArray());
             }
         }
+    }
+
+    // 🧹 Call this from CursorToggle when hiding the cursor
+    public void ClearAllLines()
+    {
+        foreach (GameObject line in drawnLines)
+        {
+            if (line != null)
+                Destroy(line);
+        }
+
+        drawnLines.Clear();
+        currentLine = null;
+        points.Clear();
     }
 }

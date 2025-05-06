@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FirstPersonControllerWithItemToggle : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float speed = 5f;
@@ -17,6 +17,8 @@ public class FirstPersonControllerWithItemToggle : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
     private float xRotation = 0f;
+    public bool allowMovement = true;
+
 
     void Start()
     {
@@ -25,8 +27,11 @@ public class FirstPersonControllerWithItemToggle : MonoBehaviour
 
     void Update()
     {
-        HandleMovement();
-        HandleMouseLook();
+        if (allowMovement)
+        {
+            HandleMovement();
+            HandleMouseLook();
+        }
     }
 
     void HandleMovement()
